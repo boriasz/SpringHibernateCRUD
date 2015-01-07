@@ -1,0 +1,1756 @@
+2014-12-16 18:33:42,642 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:33:42,651 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:33:42,653 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:33:42,660 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:33:42,662 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:33:42,844 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:33:42,868 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:33:42,901 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:33:42,957 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:33:42,961 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:33:42,965 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:33:43,353 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:33:43,376 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:33:43,377 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:33:43,386 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:33:43,392 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:33:43,392 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:33:43,392 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:33:43,393 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:33:43,393 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:33:43,394 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:33:43,394 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:33:43,394 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:33:43,396 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:33:43,396 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:33:43,396 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:33:43,396 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:33:43,396 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:33:43,399 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:33:43,399 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:33:43,400 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:33:43,400 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:33:43,400 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:33:43,406 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:33:43,407 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:33:43,408 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:33:43,422 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:33:43,423 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:33:43,423 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:33:43,424 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:33:43,424 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:33:43,424 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:33:43,440 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:33:43,452 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@3fd34a
+2014-12-16 18:33:43,452 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@3fd34a
+2014-12-16 18:33:43,452 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@48d2b1
+2014-12-16 18:33:43,453 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1006ff2
+2014-12-16 18:33:43,453 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1b58ad1
+2014-12-16 18:33:43,453 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1acd9a9
+2014-12-16 18:33:43,453 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@10609fb
+2014-12-16 18:33:43,454 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1796a5f
+2014-12-16 18:33:43,454 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1796a5f
+2014-12-16 18:33:43,742 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:33:44,001 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:33:44,029 INFO  [DatabaseMetadata]  - table not found: Runner
+2014-12-16 18:33:44,038 INFO  [DatabaseMetadata]  - table not found: Runner
+2014-12-16 18:33:44,439 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:34:34,958 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:34:34,967 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:34:34,968 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:34:34,971 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:34:34,974 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:34:35,091 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:34:35,105 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:34:35,127 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:34:35,177 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:34:35,182 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:34:35,187 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:34:35,498 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:34:35,535 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:34:35,536 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:34:35,537 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:34:35,538 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:34:35,538 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:34:35,538 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:34:35,538 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:34:35,538 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:34:35,539 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:34:35,540 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:34:35,540 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:34:35,541 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:34:35,541 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:34:35,541 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:34:35,541 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:34:35,541 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:34:35,541 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:34:35,542 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:34:35,542 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:34:35,557 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:34:35,558 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:34:35,558 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:34:35,558 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:34:35,558 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:34:35,559 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:34:35,575 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:34:35,580 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:34:35,744 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:34:35,959 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:34:36,009 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:34:36,009 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:34:36,009 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:34:36,010 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:34:36,284 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:41:15,401 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:41:15,408 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:41:15,409 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:41:15,414 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:41:15,416 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:41:15,534 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:41:15,551 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:41:15,572 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:41:15,621 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:41:15,626 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:41:15,630 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:41:15,957 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:41:15,998 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:41:15,998 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:41:16,000 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:41:16,001 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:41:16,001 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:41:16,001 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:41:16,001 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:41:16,001 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:41:16,001 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:41:16,002 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:41:16,003 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:41:16,005 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:41:16,005 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:41:16,005 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:41:16,005 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:41:16,005 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:41:16,005 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:41:16,006 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:41:16,007 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:41:16,014 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:41:16,014 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:41:16,014 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:41:16,016 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:41:16,016 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:41:16,016 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:41:16,033 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:41:16,039 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:41:16,230 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:41:16,454 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:41:16,510 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:41:16,511 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:41:16,511 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:41:16,511 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:41:16,834 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:43:30,547 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:43:30,555 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:43:30,556 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:43:30,559 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:43:30,562 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:43:30,680 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:43:30,695 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:43:30,719 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:43:30,768 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:43:30,772 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:43:30,777 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:43:31,094 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:43:31,132 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:43:31,132 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:43:31,134 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:43:31,134 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:43:31,135 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:43:31,136 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:43:31,137 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:43:31,137 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:43:31,137 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:43:31,137 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:43:31,138 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:43:31,138 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:43:31,140 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:43:31,140 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:43:31,146 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:43:31,147 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:43:31,147 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:43:31,147 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:43:31,147 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:43:31,147 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:43:31,162 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:43:31,168 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:43:31,169 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:43:31,343 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:43:31,562 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:43:31,593 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:43:31,593 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:43:31,594 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:43:31,594 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:43:31,884 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:45:42,660 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:45:42,668 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:45:42,669 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:45:42,672 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:45:42,674 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:45:42,796 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:45:42,811 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:45:42,833 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:45:42,883 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:45:42,888 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:45:42,892 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:45:43,211 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:45:43,252 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:45:43,252 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:45:43,254 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:45:43,255 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:45:43,255 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:45:43,255 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:45:43,255 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:45:43,256 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:45:43,256 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:45:43,256 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:45:43,256 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:45:43,257 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:45:43,257 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:45:43,257 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:45:43,257 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:45:43,257 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:45:43,258 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:45:43,259 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:45:43,259 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:45:43,259 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:45:43,259 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:45:43,259 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:45:43,260 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:45:43,260 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:45:43,271 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:45:43,272 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:45:43,272 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:45:43,272 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:45:43,272 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:45:43,272 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:45:43,288 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:45:43,294 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:45:43,295 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:45:43,295 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:45:43,461 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:45:43,673 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:45:43,708 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:45:43,708 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:45:43,709 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:45:43,709 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:45:44,015 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:46:15,922 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:46:15,929 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:46:15,930 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:46:15,933 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:46:15,935 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:46:16,049 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:46:16,066 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:46:16,090 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:46:16,138 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:46:16,142 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:46:16,146 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:46:16,460 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:46:16,497 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:46:16,497 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:46:16,500 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:46:16,500 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:46:16,501 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:46:16,502 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:46:16,502 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:46:16,502 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:46:16,502 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:46:16,502 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:46:16,503 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:46:16,503 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:46:16,503 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:46:16,504 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:46:16,504 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:46:16,504 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:46:16,505 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:46:16,506 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:46:16,506 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:46:16,512 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:46:16,514 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:46:16,514 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:46:16,514 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:46:16,514 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:46:16,514 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:46:16,530 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:46:16,535 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:46:16,536 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:46:16,536 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:46:16,536 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:46:16,701 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:46:16,919 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:46:16,953 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:46:16,953 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:46:16,953 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:46:16,953 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:46:17,242 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:53:30,998 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:53:31,004 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:53:31,006 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:53:31,009 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:53:31,011 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:53:31,126 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:53:31,142 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:53:31,163 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:53:31,211 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:53:31,216 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:53:31,220 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:53:31,538 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:53:31,579 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:53:31,580 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:53:31,581 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:53:31,582 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:53:31,582 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:53:31,582 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:53:31,582 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:53:31,582 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:53:31,583 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:53:31,583 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:53:31,583 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:53:31,584 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:53:31,584 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:53:31,584 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:53:31,584 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:53:31,584 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:53:31,585 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:53:31,585 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:53:31,586 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:53:31,586 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:53:31,586 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:53:31,586 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:53:31,587 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:53:31,587 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:53:31,597 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:53:31,598 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:53:31,598 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:53:31,598 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:53:31,598 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:53:31,598 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:53:31,615 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@814a4d
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@354203
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@80e480
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@80e480
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@19bbde
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@17d0063
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1a47cf7
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@83f05
+2014-12-16 18:53:31,620 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@83f05
+2014-12-16 18:53:31,785 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:53:31,997 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:53:32,037 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:53:32,037 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:53:32,037 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:53:32,037 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:53:32,369 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:54:29,532 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:54:29,539 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:54:29,540 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:54:29,544 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:54:29,547 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:54:29,707 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:54:29,721 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:54:29,746 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:54:29,805 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:54:29,810 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:54:29,814 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:54:30,134 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:54:30,175 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:54:30,175 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:54:30,176 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:54:30,177 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:54:30,178 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:54:30,179 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:54:30,179 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:54:30,179 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:54:30,179 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:54:30,179 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:54:30,181 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:54:30,181 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:54:30,181 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:54:30,182 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:54:30,182 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:54:30,182 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:54:30,183 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:54:30,183 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:54:30,191 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:54:30,191 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:54:30,191 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:54:30,191 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:54:30,191 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:54:30,192 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:54:30,210 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:54:30,215 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:54:30,216 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:54:30,216 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:54:30,216 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:54:30,387 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:54:30,605 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:54:30,645 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:54:30,645 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:54:30,645 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:54:30,645 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:54:30,937 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:58:08,096 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:58:08,102 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:58:08,103 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:58:08,106 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:58:08,109 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:58:08,230 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:58:08,244 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:58:08,274 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:58:08,331 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:58:08,337 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:58:08,341 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:58:08,675 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:58:08,716 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:58:08,716 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:58:08,717 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:58:08,718 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:58:08,719 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:58:08,720 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:58:08,722 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:58:08,722 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:58:08,722 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:58:08,722 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:58:08,722 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:58:08,722 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:58:08,723 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:58:08,723 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:58:08,730 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:58:08,731 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:58:08,731 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:58:08,732 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:58:08,732 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:58:08,732 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:58:08,749 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:58:08,754 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:58:08,754 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:58:08,754 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:58:08,755 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:58:08,755 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:58:08,755 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:58:08,755 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:58:08,756 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:58:08,756 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:58:08,941 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:58:09,174 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:58:09,214 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:58:09,214 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:58:09,214 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:58:09,214 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:58:09,546 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 18:58:57,538 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 18:58:57,544 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 18:58:57,545 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 18:58:57,547 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 18:58:57,550 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 18:58:57,665 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 18:58:57,680 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 18:58:57,703 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 18:58:57,750 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 18:58:57,754 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 18:58:57,758 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 18:58:58,075 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:58:58,113 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 18:58:58,114 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 18:58:58,115 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 18:58:58,116 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 18:58:58,116 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 18:58:58,116 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 18:58:58,116 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 18:58:58,116 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 18:58:58,117 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 18:58:58,117 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 18:58:58,117 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 18:58:58,117 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 18:58:58,118 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 18:58:58,118 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 18:58:58,118 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 18:58:58,118 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 18:58:58,119 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 18:58:58,119 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 18:58:58,119 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 18:58:58,119 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 18:58:58,119 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 18:58:58,120 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 18:58:58,120 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 18:58:58,121 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 18:58:58,128 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 18:58:58,128 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 18:58:58,128 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 18:58:58,128 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 18:58:58,128 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 18:58:58,129 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 18:58:58,145 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@354203
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@80e480
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@19bbde
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@17d0063
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1a47cf7
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@83f05
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:58:58,150 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1619bbf
+2014-12-16 18:58:58,336 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 18:58:58,570 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 18:58:58,606 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 18:58:58,606 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 18:58:58,606 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 18:58:58,606 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 18:58:58,900 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:03:42,632 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:03:42,639 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:03:42,640 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:03:42,642 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:03:42,645 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:03:42,761 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:03:42,777 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:03:42,799 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:03:42,851 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:03:42,855 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:03:42,859 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:03:43,176 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:03:43,217 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:03:43,217 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:03:43,218 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:03:43,219 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:03:43,219 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:03:43,219 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:03:43,220 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:03:43,220 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:03:43,220 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:03:43,220 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:03:43,220 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:03:43,221 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:03:43,221 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:03:43,221 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:03:43,221 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:03:43,222 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:03:43,223 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:03:43,223 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:03:43,223 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:03:43,224 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:03:43,224 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:03:43,224 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:03:43,226 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:03:43,226 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:03:43,233 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:03:43,234 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:03:43,234 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:03:43,234 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:03:43,234 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:03:43,234 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:03:43,254 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:03:43,258 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@83f05
+2014-12-16 19:03:43,258 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1619bbf
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@13857e1
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@119847
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1f23fa8
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:03:43,259 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:03:43,427 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:03:43,656 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:03:43,693 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:03:43,694 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:03:43,694 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:03:43,694 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:03:43,997 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:06:44,084 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:06:44,093 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:06:44,094 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:06:44,097 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:06:44,100 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:06:44,225 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:06:44,240 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:06:44,262 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:06:44,320 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:06:44,325 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:06:44,330 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:06:44,651 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:06:44,692 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:06:44,692 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:06:44,693 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:06:44,695 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:06:44,695 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:06:44,695 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:06:44,696 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:06:44,696 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:06:44,696 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:06:44,696 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:06:44,696 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:06:44,697 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:06:44,697 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:06:44,697 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:06:44,697 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:06:44,697 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:06:44,698 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:06:44,698 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:06:44,699 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:06:44,699 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:06:44,699 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:06:44,699 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:06:44,700 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:06:44,700 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:06:44,707 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:06:44,708 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:06:44,708 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:06:44,708 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:06:44,708 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:06:44,708 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:06:44,724 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@83f05
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1619bbf
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@13857e1
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@119847
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:06:44,729 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:06:44,730 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1f23fa8
+2014-12-16 19:06:44,730 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:06:44,730 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:06:44,910 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:06:45,141 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:06:45,178 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:06:45,178 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:06:45,179 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:06:45,179 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:06:45,500 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:07:11,450 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:07:11,457 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:07:11,458 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:07:11,460 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:07:11,463 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:07:11,602 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:07:11,618 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:07:11,639 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:07:11,688 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:07:11,692 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:07:11,696 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:07:12,012 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:07:12,074 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:07:12,074 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:07:12,076 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:07:12,077 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:07:12,083 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:07:12,083 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:07:12,083 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:07:12,083 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:07:12,083 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:07:12,084 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:07:12,084 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:07:12,084 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:07:12,084 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:07:12,084 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:07:12,085 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:07:12,085 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:07:12,086 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:07:12,086 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:07:12,086 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:07:12,086 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:07:12,086 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:07:12,086 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:07:12,088 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:07:12,088 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:07:12,102 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:07:12,103 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:07:12,103 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:07:12,103 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:07:12,103 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:07:12,103 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:07:12,128 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@83f05
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1619bbf
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@13857e1
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@119847
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@12499df
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1f23fa8
+2014-12-16 19:07:12,137 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:07:12,138 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13166fc
+2014-12-16 19:07:12,306 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:07:12,522 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:07:12,562 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:07:12,562 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:07:12,562 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:07:12,562 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:07:12,870 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:10:37,297 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:10:37,306 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:10:37,307 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:10:37,310 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:10:37,313 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:10:37,429 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:10:37,447 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:10:37,467 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:10:37,514 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:10:37,520 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:10:37,524 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:10:37,842 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:10:37,883 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:10:37,883 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:10:37,884 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:10:37,885 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:10:37,885 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:10:37,885 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:10:37,885 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:10:37,885 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:10:37,885 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:10:37,886 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:10:37,887 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:10:37,888 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:10:37,888 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:10:37,888 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:10:37,888 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:10:37,888 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:10:37,888 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:10:37,889 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:10:37,889 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:10:37,896 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:10:37,897 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:10:37,897 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:10:37,897 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:10:37,898 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:10:37,898 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:10:37,913 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@13166fc
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6048c0
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@14849f5
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@ef9969
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@40d17e
+2014-12-16 19:10:37,918 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:10:37,919 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:10:38,086 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:10:38,298 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:10:38,332 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:10:38,332 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:10:38,332 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:10:38,332 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:10:38,617 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:10:47,769 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:10:47,776 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:10:47,778 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:10:47,780 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:10:47,783 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:10:47,898 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:10:47,914 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:10:47,935 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:10:47,985 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:10:47,990 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:10:47,994 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:10:48,311 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:10:48,350 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:10:48,350 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:10:48,351 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:10:48,352 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:10:48,352 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:10:48,352 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:10:48,352 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:10:48,353 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:10:48,353 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:10:48,353 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:10:48,353 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:10:48,353 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:10:48,354 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:10:48,354 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:10:48,354 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:10:48,354 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:10:48,356 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:10:48,356 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:10:48,356 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:10:48,356 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:10:48,356 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:10:48,356 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:10:48,357 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:10:48,357 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:10:48,367 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:10:48,368 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:10:48,368 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:10:48,368 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:10:48,369 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:10:48,369 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:10:48,387 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@13166fc
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6048c0
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@14849f5
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@ef9969
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@40d17e
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:10:48,392 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:10:48,561 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:10:48,771 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:10:48,806 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:10:48,806 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:10:48,806 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:10:48,806 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:10:49,100 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:11:35,182 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:11:35,188 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:11:35,189 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:11:35,192 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:11:35,194 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:11:35,315 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:11:35,332 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:11:35,353 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:11:35,401 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:11:35,406 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:11:35,409 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:11:35,731 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:11:35,769 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:11:35,770 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:11:35,772 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:11:35,773 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:11:35,773 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:11:35,773 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:11:35,773 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:11:35,773 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:11:35,774 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:11:35,775 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:11:35,775 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:11:35,776 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:11:35,776 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:11:35,776 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:11:35,776 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:11:35,776 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:11:35,776 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:11:35,777 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:11:35,777 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:11:35,785 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:11:35,801 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:11:35,805 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@13166fc
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6048c0
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@14849f5
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@ef9969
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@40d17e
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:11:35,806 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:11:35,968 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:11:36,177 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:11:36,217 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:11:36,217 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:11:36,217 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:11:36,218 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:11:36,527 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:11:45,716 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:11:45,722 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:11:45,724 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:11:45,727 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:11:45,729 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:11:45,844 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:11:45,859 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:11:45,881 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:11:45,928 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:11:45,933 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:11:45,937 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:11:46,257 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:11:46,302 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:11:46,303 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:11:46,304 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:11:46,305 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:11:46,305 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:11:46,306 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:11:46,311 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:11:46,311 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:11:46,311 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:11:46,311 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:11:46,311 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:11:46,311 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:11:46,313 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:11:46,313 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:11:46,320 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:11:46,321 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:11:46,321 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:11:46,321 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:11:46,321 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:11:46,321 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:11:46,335 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@13166fc
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6048c0
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@14849f5
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@ef9969
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@40d17e
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:11:46,341 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:11:46,505 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:11:46,719 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:11:46,758 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:11:46,759 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:11:46,759 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:11:46,759 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:11:47,044 INFO  [SessionFactoryImpl]  - closing
+2014-12-16 19:14:16,496 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-16 19:14:16,504 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-16 19:14:16,505 INFO  [Environment]  - hibernate.properties not found
+2014-12-16 19:14:16,508 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-16 19:14:16,513 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-16 19:14:16,633 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-16 19:14:16,651 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-16 19:14:16,671 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-16 19:14:16,719 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-16 19:14:16,724 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-16 19:14:16,729 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-16 19:14:17,049 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:14:17,089 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-16 19:14:17,090 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-16 19:14:17,091 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-16 19:14:17,092 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-16 19:14:17,092 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-16 19:14:17,092 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-16 19:14:17,092 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-16 19:14:17,093 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-16 19:14:17,093 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-16 19:14:17,093 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-16 19:14:17,093 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-16 19:14:17,094 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-16 19:14:17,094 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-16 19:14:17,094 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-16 19:14:17,094 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-16 19:14:17,094 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-16 19:14:17,095 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-16 19:14:17,096 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-16 19:14:17,096 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-16 19:14:17,096 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-16 19:14:17,096 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-16 19:14:17,096 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-16 19:14:17,097 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-16 19:14:17,097 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-16 19:14:17,104 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-16 19:14:17,105 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-16 19:14:17,105 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-16 19:14:17,105 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-16 19:14:17,105 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-16 19:14:17,106 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-16 19:14:17,122 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-16 19:14:17,127 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f23fa8
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@13166fc
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6048c0
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@14849f5
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@ef9969
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@40d17e
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:14:17,128 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@179ac74
+2014-12-16 19:14:17,306 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-16 19:14:17,526 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-16 19:14:17,559 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-16 19:14:17,559 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-16 19:14:17,559 INFO  [TableMetadata]  - foreign keys: []
+2014-12-16 19:14:17,559 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10101_10102]
+2014-12-16 19:14:17,843 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:13:34,491 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:13:34,519 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:13:34,520 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:13:34,525 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:13:34,528 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:13:34,724 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:13:34,745 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:13:34,767 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:13:34,826 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:13:34,831 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:13:34,839 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:13:35,170 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:13:35,235 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:13:35,235 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:13:35,237 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:13:35,237 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:13:35,238 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:13:35,238 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:13:35,238 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:13:35,238 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:13:35,239 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:13:35,239 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:13:35,239 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:13:35,240 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:13:35,240 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:13:35,240 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:13:35,240 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:13:35,240 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:13:35,254 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:13:35,254 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:13:35,255 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:13:35,255 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:13:35,255 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:13:35,255 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:13:35,256 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:13:35,256 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:13:35,263 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:13:35,265 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:13:35,265 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:13:35,265 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:13:35,265 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:13:35,265 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:13:35,282 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:13:35,294 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:13:35,295 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:13:35,583 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:13:35,866 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:13:35,923 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:13:35,923 INFO  [TableMetadata]  - columns: [id, yob, firstname]
+2014-12-18 13:13:35,924 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:13:35,924 INFO  [TableMetadata]  - indexes: []
+2014-12-18 13:13:36,181 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:13:36,181 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:13:36,213 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:13:36,213 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:13:36,219 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:13:36,219 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:13:36,228 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:13:36,228 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: RUNNER0_.ID_RUNNER
+2014-12-18 13:13:36,234 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:13:36,234 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: RUNNER0_.ID_RUNNER
+2014-12-18 13:13:36,251 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:13:58,828 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:13:58,835 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:13:58,836 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:13:58,839 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:13:58,842 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:13:58,966 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:13:58,984 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:13:59,003 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:13:59,050 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:13:59,054 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:13:59,058 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:13:59,381 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:13:59,423 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:13:59,423 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:13:59,425 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:13:59,425 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:13:59,425 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:13:59,426 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:13:59,427 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:13:59,427 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:13:59,427 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:13:59,427 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:13:59,427 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:13:59,429 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:13:59,429 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:13:59,430 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:13:59,430 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:13:59,430 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:13:59,430 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:13:59,431 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:13:59,431 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:13:59,438 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:13:59,439 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:13:59,439 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:13:59,439 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:13:59,439 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:13:59,439 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:13:59,455 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:13:59,459 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:13:59,459 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:13:59,459 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:13:59,460 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:13:59,627 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:13:59,836 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:13:59,886 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:13:59,886 INFO  [TableMetadata]  - columns: [id, nationality, yob, lastname, firstname]
+2014-12-18 13:13:59,886 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:13:59,886 INFO  [TableMetadata]  - indexes: []
+2014-12-18 13:14:00,099 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:14:00,100 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:14:00,109 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:14:00,109 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:14:00,115 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:14:00,115 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: ID_RUNNER
+2014-12-18 13:14:00,123 WARN  [JDBCExceptionReporter]  - SQL Error: -5501, SQLState: 42501
+2014-12-18 13:14:00,123 ERROR [JDBCExceptionReporter]  - user lacks privilege or object not found: RUNNER0_.ID_RUNNER
+2014-12-18 13:14:00,141 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:14:17,459 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:14:17,465 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:14:17,466 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:14:17,470 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:14:17,473 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:14:17,586 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:14:17,601 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:14:17,624 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:14:17,672 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:14:17,677 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:14:17,680 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:14:18,007 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:14:18,044 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:14:18,045 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:14:18,046 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:14:18,047 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:14:18,047 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:14:18,047 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:14:18,047 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:14:18,048 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:14:18,048 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:14:18,048 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:14:18,048 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:14:18,049 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:14:18,049 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:14:18,049 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:14:18,049 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:14:18,049 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:14:18,050 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:14:18,050 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:14:18,050 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:14:18,051 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:14:18,051 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:14:18,051 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:14:18,052 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:14:18,052 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:14:18,059 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:14:18,059 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:14:18,059 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:14:18,060 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:14:18,060 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:14:18,060 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:14:18,079 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:14:18,083 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:14:18,083 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:14:18,083 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:14:18,083 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:14:18,084 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:14:18,084 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:14:18,084 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:14:18,084 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:14:18,084 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:14:18,246 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:14:18,462 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:14:18,493 INFO  [DatabaseMetadata]  - table not found: Runner
+2014-12-18 13:14:18,496 INFO  [DatabaseMetadata]  - table not found: Runner
+2014-12-18 13:14:18,780 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:15:42,447 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:15:42,454 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:15:42,455 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:15:42,457 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:15:42,460 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:15:42,576 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:15:42,592 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:15:42,612 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:15:42,665 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:15:42,669 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:15:42,674 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:15:42,997 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:15:43,035 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:15:43,035 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:15:43,037 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:15:43,038 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:15:43,038 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:15:43,038 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:15:43,038 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:15:43,038 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:15:43,039 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:15:43,039 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:15:43,039 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:15:43,040 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:15:43,040 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:15:43,040 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:15:43,040 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:15:43,040 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:15:43,041 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:15:43,041 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:15:43,041 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:15:43,042 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:15:43,042 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:15:43,042 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:15:43,043 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:15:43,043 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:15:43,050 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:15:43,050 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:15:43,051 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:15:43,051 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:15:43,051 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:15:43,051 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:15:43,066 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:15:43,071 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:15:43,240 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:15:43,455 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:15:43,519 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:15:43,520 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-18 13:15:43,520 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:15:43,520 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10098_10099]
+2014-12-18 13:15:43,797 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:18:48,058 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:18:48,065 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:18:48,066 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:18:48,068 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:18:48,071 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:18:48,194 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:18:48,207 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:18:48,228 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:18:48,276 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:18:48,280 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:18:48,284 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:18:48,607 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:18:48,658 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:18:48,658 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:18:48,659 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:18:48,660 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:18:48,660 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:18:48,660 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:18:48,661 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:18:48,661 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:18:48,661 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:18:48,661 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:18:48,661 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:18:48,662 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:18:48,662 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:18:48,662 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:18:48,662 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:18:48,662 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:18:48,663 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:18:48,663 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:18:48,663 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:18:48,664 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:18:48,667 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:18:48,668 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:18:48,669 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:18:48,669 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:18:48,675 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:18:48,676 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:18:48,676 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:18:48,676 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:18:48,676 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:18:48,676 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:18:48,693 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:18:48,697 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:18:48,697 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:18:48,697 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:18:48,697 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:18:48,697 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:18:48,698 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:18:48,698 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:18:48,698 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:18:48,698 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:18:48,869 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:18:49,089 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:18:49,130 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:18:49,130 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-18 13:18:49,130 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:18:49,130 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10098_10099]
+2014-12-18 13:18:49,419 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:19:07,782 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:19:07,790 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:19:07,791 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:19:07,794 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:19:07,796 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:19:07,915 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:19:07,930 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:19:07,953 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:19:07,997 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:19:08,001 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:19:08,004 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:19:08,322 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:08,359 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:19:08,359 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:19:08,361 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:19:08,363 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:19:08,363 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:19:08,363 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:19:08,363 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:19:08,363 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:19:08,364 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:19:08,365 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:19:08,365 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:19:08,366 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:19:08,366 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:19:08,366 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:19:08,366 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:19:08,366 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:19:08,366 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:19:08,367 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:19:08,367 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:19:08,374 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:19:08,375 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:19:08,375 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:19:08,375 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:19:08,375 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:19:08,375 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:19:08,390 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:19:08,395 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:19:08,395 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6048c0
+2014-12-18 13:19:08,395 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@14849f5
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@40d17e
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@179ac74
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@12906e4
+2014-12-18 13:19:08,396 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@838f70
+2014-12-18 13:19:08,578 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:19:08,802 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:08,839 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:19:08,839 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-18 13:19:08,839 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:19:08,839 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10098_10099]
+2014-12-18 13:19:09,140 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:19:30,101 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:19:30,109 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:19:30,110 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:19:30,113 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:19:30,115 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:19:30,230 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:19:30,246 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:19:30,266 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:19:30,317 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:19:30,321 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:19:30,326 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:19:30,645 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:30,684 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:19:30,684 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:19:30,685 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:19:30,686 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:19:30,686 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:19:30,686 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:19:30,686 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:19:30,687 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:19:30,687 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:19:30,687 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:19:30,687 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:19:30,687 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:19:30,688 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:19:30,688 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:19:30,688 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:19:30,688 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:19:30,691 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:19:30,691 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:19:30,691 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:19:30,691 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:19:30,691 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:19:30,692 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:19:30,693 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:19:30,693 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:19:30,699 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:19:30,701 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:19:30,701 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:19:30,701 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:19:30,701 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:19:30,701 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:19:30,716 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:19:30,721 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@14849f5
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@40d17e
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@179ac74
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@12906e4
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@838f70
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@838f70
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@13e263a
+2014-12-18 13:19:30,722 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13e263a
+2014-12-18 13:19:30,883 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:19:31,091 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:31,127 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:19:31,127 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-18 13:19:31,127 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:19:31,127 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10098_10099]
+2014-12-18 13:19:31,438 INFO  [SessionFactoryImpl]  - closing
+2014-12-18 13:19:45,502 INFO  [Version]  - Hibernate Commons Annotations 3.2.0.Final
+2014-12-18 13:19:45,508 INFO  [Environment]  - Hibernate 3.6.6.Final
+2014-12-18 13:19:45,509 INFO  [Environment]  - hibernate.properties not found
+2014-12-18 13:19:45,513 INFO  [Environment]  - Bytecode provider name : javassist
+2014-12-18 13:19:45,515 INFO  [Environment]  - using JDK 1.4 java.sql.Timestamp handling
+2014-12-18 13:19:45,629 INFO  [AnnotationBinder]  - Binding entity from annotated class: com.tud.lab4.tp.Runner
+2014-12-18 13:19:45,645 INFO  [QueryBinder]  - Binding Named query: runner.all => Select r from Runner r
+2014-12-18 13:19:45,666 INFO  [EntityBinder]  - Bind entity com.tud.lab4.tp.Runner on table Runner
+2014-12-18 13:19:45,712 INFO  [Configuration]  - Hibernate Validator not found: ignoring
+2014-12-18 13:19:45,718 INFO  [HibernateSearchEventListenerRegister]  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-12-18 13:19:45,722 INFO  [ConnectionProviderFactory]  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-12-18 13:19:46,042 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:46,080 INFO  [SettingsFactory]  - Database ->
+       name : HSQL Database Engine
+    version : 2.3.0
+      major : 2
+      minor : 3
+2014-12-18 13:19:46,080 INFO  [SettingsFactory]  - Driver ->
+       name : HSQL Database Engine Driver
+    version : 2.2.4
+      major : 2
+      minor : 2
+2014-12-18 13:19:46,081 INFO  [TransactionFactoryFactory]  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-12-18 13:19:46,083 INFO  [TransactionManagerLookupFactory]  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-12-18 13:19:46,083 INFO  [SettingsFactory]  - Automatic flush during beforeCompletion(): disabled
+2014-12-18 13:19:46,083 INFO  [SettingsFactory]  - Automatic session close at end of transaction: disabled
+2014-12-18 13:19:46,083 INFO  [SettingsFactory]  - JDBC batch size: 15
+2014-12-18 13:19:46,084 INFO  [SettingsFactory]  - JDBC batch updates for versioned data: disabled
+2014-12-18 13:19:46,084 INFO  [SettingsFactory]  - Scrollable result sets: enabled
+2014-12-18 13:19:46,084 INFO  [SettingsFactory]  - JDBC3 getGeneratedKeys(): enabled
+2014-12-18 13:19:46,084 INFO  [SettingsFactory]  - Connection release mode: auto
+2014-12-18 13:19:46,085 INFO  [SettingsFactory]  - Default batch fetch size: 1
+2014-12-18 13:19:46,085 INFO  [SettingsFactory]  - Generate SQL with comments: disabled
+2014-12-18 13:19:46,085 INFO  [SettingsFactory]  - Order SQL updates by primary key: disabled
+2014-12-18 13:19:46,085 INFO  [SettingsFactory]  - Order SQL inserts for batching: disabled
+2014-12-18 13:19:46,085 INFO  [SettingsFactory]  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-12-18 13:19:46,086 INFO  [ASTQueryTranslatorFactory]  - Using ASTQueryTranslatorFactory
+2014-12-18 13:19:46,086 INFO  [SettingsFactory]  - Query language substitutions: {}
+2014-12-18 13:19:46,086 INFO  [SettingsFactory]  - JPA-QL strict compliance: disabled
+2014-12-18 13:19:46,086 INFO  [SettingsFactory]  - Second-level cache: enabled
+2014-12-18 13:19:46,086 INFO  [SettingsFactory]  - Query cache: disabled
+2014-12-18 13:19:46,086 INFO  [SettingsFactory]  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-12-18 13:19:46,087 INFO  [SettingsFactory]  - Optimize cache for minimal puts: disabled
+2014-12-18 13:19:46,088 INFO  [SettingsFactory]  - Structured second-level cache entries: disabled
+2014-12-18 13:19:46,098 INFO  [SettingsFactory]  - Echoing all SQL to stdout
+2014-12-18 13:19:46,099 INFO  [SettingsFactory]  - Statistics: disabled
+2014-12-18 13:19:46,099 INFO  [SettingsFactory]  - Deleted entity synthetic identifier rollback: disabled
+2014-12-18 13:19:46,099 INFO  [SettingsFactory]  - Default entity-mode: pojo
+2014-12-18 13:19:46,099 INFO  [SettingsFactory]  - Named query checking : enabled
+2014-12-18 13:19:46,099 INFO  [SettingsFactory]  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-12-18 13:19:46,115 INFO  [SessionFactoryImpl]  - building session factory
+2014-12-18 13:19:46,119 INFO  [BasicTypeRegistry]  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@14849f5
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@ef9969
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@40d17e
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@179ac74
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@12906e4
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@838f70
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@838f70
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@13e263a
+2014-12-18 13:19:46,120 INFO  [BasicTypeRegistry]  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@13e263a
+2014-12-18 13:19:46,282 INFO  [SessionFactoryObjectFactory]  - Not binding factory to JNDI, no JNDI name configured
+2014-12-18 13:19:46,502 INFO  [Dialect]  - Using dialect: org.hibernate.dialect.HSQLDialect
+2014-12-18 13:19:46,538 INFO  [TableMetadata]  - table found: PUBLIC.PUBLIC.RUNNER
+2014-12-18 13:19:46,538 INFO  [TableMetadata]  - columns: [nationality, yob, id_runner, lastname, firstname]
+2014-12-18 13:19:46,538 INFO  [TableMetadata]  - foreign keys: []
+2014-12-18 13:19:46,538 INFO  [TableMetadata]  - indexes: [sys_idx_sys_pk_10098_10099]
+2014-12-18 13:19:46,822 INFO  [SessionFactoryImpl]  - closing
